@@ -12,8 +12,8 @@ importers:
         specifier: latest
         version: 1.0.6(encoding@0.1.13)(nuxt@3.11.2(@opentelemetry/api@1.8.0)(@parcel/watcher@2.4.1)(@types/node@20.10.4)(@unocss/reset@0.60.4)(encoding@0.1.13)(floating-vue@5.2.2(@nuxt/kit@3.11.2(rollup@4.18.0))(vue@3.4.27(typescript@5.3.3)))(ioredis@5.3.2)(rollup@4.18.0)(terser@5.26.0)(typescript@5.3.3)(unocss@0.60.4(postcss@8.4.38)(rollup@4.18.0)(vite@5.2.12(@types/node@20.10.4)(terser@5.26.0)))(vite@5.2.12(@types/node@20.10.4)(terser@5.26.0)))(rollup@4.18.0)(vite@5.2.12(@types/node@20.10.4)(terser@5.26.0))
       '@vue-email/nuxt-edge':
-        specifier: 0.8.19-28625106.286e4b6
-        version: 0.8.19-28625106.286e4b6(rollup@4.18.0)(typescript@5.3.3)(vite@5.2.12(@types/node@20.10.4)(terser@5.26.0))(vue@3.4.27(typescript@5.3.3))
+        specifier: 0.8.19-28625182.50cb071
+        version: 0.8.19-28625182.50cb071(rollup@4.18.0)(typescript@5.3.3)(vite@5.2.12(@types/node@20.10.4)(terser@5.26.0))(vue@3.4.27(typescript@5.3.3))
       nuxt:
         specifier: ^3.11.2
         version: 3.11.2(@opentelemetry/api@1.8.0)(@parcel/watcher@2.4.1)(@types/node@20.10.4)(@unocss/reset@0.60.4)(encoding@0.1.13)(floating-vue@5.2.2(@nuxt/kit@3.11.2(rollup@4.18.0))(vue@3.4.27(typescript@5.3.3)))(ioredis@5.3.2)(rollup@4.18.0)(terser@5.26.0)(typescript@5.3.3)(unocss@0.60.4(postcss@8.4.38)(rollup@4.18.0)(vite@5.2.12(@types/node@20.10.4)(terser@5.26.0)))(vite@5.2.12(@types/node@20.10.4)(terser@5.26.0))
@@ -1589,8 +1589,8 @@ packages:
     peerDependencies:
       vue: ^3.3.8
 
-  '@vue-email/nuxt-edge@0.8.19-28625106.286e4b6':
-    resolution: {integrity: sha512-4t2bG8xZsiIn1d/J1SKwfB3GfyRZ4/6/We4I/GdLoFX5kLbZMVQ2sTOcPgQXbax1b9zh9DU6HntPN+kp7itWJA==}
+  '@vue-email/nuxt-edge@0.8.19-28625182.50cb071':
+    resolution: {integrity: sha512-bm/JL/xIpZtQUemvxI7YIeKxmpwz1vtd61FrqO7/80kxZusgAU9IXzjUdLM1NMq6PLwT/JlOfqm7GdxkE1GeNQ==}
 
   '@vue-email/tailwind@0.0.6':
     resolution: {integrity: sha512-+t3yC1ym2fwa2KexOvdMDgB1Thpj3dcmMEztjSj6fa2tcuWmj/fTn+5yskzjtrokyqtc4dAqe7Da7uj1/j+dww==}
@@ -4780,8 +4780,8 @@ packages:
   vue-devtools-stub@0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
 
-  vue-email-edge@0.8.11-28625013.083e479:
-    resolution: {integrity: sha512-kAyMNuI9myab6unm1/wlNCXweP0uK2lc9zH53/qhLq7BjUnN4lBSYWgMhTkU3l02as4A9yFSbE5JcCxqzmnc5w==}
+  vue-email-edge@0.8.11-28625178.e947738:
+    resolution: {integrity: sha512-UD58FwLE9evj442mrkqIOEcEUXah/cn5HTIq3GvM2CWXpuhWJouXvHTGeDAQYFJ6OL0BcEU9hupt1gzGCKyfuw==}
     hasBin: true
 
   vue-email@0.8.11:
@@ -6894,7 +6894,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@vue-email/nuxt-edge@0.8.19-28625106.286e4b6(rollup@4.18.0)(typescript@5.3.3)(vite@5.2.12(@types/node@20.10.4)(terser@5.26.0))(vue@3.4.27(typescript@5.3.3))':
+  '@vue-email/nuxt-edge@0.8.19-28625182.50cb071(rollup@4.18.0)(typescript@5.3.3)(vite@5.2.12(@types/node@20.10.4)(terser@5.26.0))(vue@3.4.27(typescript@5.3.3))':
     dependencies:
       '@nuxt/kit': 3.11.2(rollup@4.18.0)
       '@vitejs/plugin-vue': 5.0.5(vite@5.2.12(@types/node@20.10.4)(terser@5.26.0))(vue@3.4.27(typescript@5.3.3))
@@ -6903,7 +6903,7 @@ snapshots:
       json5: 2.2.3
       sirv: 2.0.4
       vue-component-meta: 2.0.19(typescript@5.3.3)
-      vue-email-edge: 0.8.11-28625013.083e479(typescript@5.3.3)
+      vue-email-edge: 0.8.11-28625178.e947738(typescript@5.3.3)
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -10709,7 +10709,7 @@ snapshots:
 
   vue-devtools-stub@0.1.0: {}
 
-  vue-email-edge@0.8.11-28625013.083e479(typescript@5.3.3):
+  vue-email-edge@0.8.11-28625178.e947738(typescript@5.3.3):
     dependencies:
       '@vue-email/cli': 0.0.14(typescript@5.3.3)(vue@3.4.27(typescript@5.3.3))
       '@vue-email/tailwind': 0.0.6
@@ -10717,7 +10717,6 @@ snapshots:
       shiki: 1.6.2
       ufo: 1.5.3
       vue: 3.4.27(typescript@5.3.3)
-      vue-i18n: 9.13.1(vue@3.4.27(typescript@5.3.3))
     transitivePeerDependencies:
       - bufferutil
       - canvas
