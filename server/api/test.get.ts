@@ -1,16 +1,18 @@
 import { useRender } from 'vue-email-edge'
-import Email from '../../components/Test.vue'
-
+import Email from '../../components/Email.vue'
 
 export default defineEventHandler(async (event) => {
 
   const t = await useTranslation(event)
 
-  const html = await useRender(Email, {
-    name: 'Flowko',
-    t
+  const email = await useRender(Email, {
+    loginDate: new Date('September 7, 2022, 10:58 am'),
+    loginDevice: 'Chrome on Mac OS X',
+    loginLocation: 'Upland, California, United States',
+    loginIp: '47.149.53.167',
+    userFirstName: 'John',
   })
 
-  return html.html
+  return email.html
 
 })
