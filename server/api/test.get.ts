@@ -1,5 +1,5 @@
 import { useRender } from 'vue-email'
-import Koala from '../../Components/koala-welcome.vue'
+import Koala from '@/Components/koala-welcome.vue'
 
 
 export default defineEventHandler(async (event) => {
