@@ -1,4 +1,3 @@
-import vue from '@vitejs/plugin-vue'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -7,11 +6,5 @@ export default defineNuxtConfig({
   vueEmail: {
     baseUrl: 'https://vue-email-demo.vercel.app/',
     autoImport: true,
-  },
-  experimental: {
-    componentIslands: true
   }
-  // nitro: {
-  //   plugins: ['vue']
-  // }
 })

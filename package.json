@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "@vue-email/nuxt": "npm:@vue-email/nuxt-edge@0.8.19-28625034.59efb3a",
-    "@vitejs/plugin-vue": "^5.0.5"
+    "vue-email": "npm:vue-email-edge@0.8.11-28625013.083e479"
   }
 }
