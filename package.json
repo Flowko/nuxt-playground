@@ -14,10 +14,8 @@
     "@nuxt/devtools": "latest",
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
-  },
-  "dependencies": {
-    "@vue-email/nuxt": "npm:@vue-email/nuxt-edge@0.8.19-28625034.59efb3a",
-    "vue-email": "npm:vue-email-edge@0.8.11-28625013.083e479"
+    "vue-router": "^4.3.2",
+    "vue-email": "npm:vue-email-edge@0.8.11-28625013.083e479",
+    "@vitejs/plugin-vue": "^5.0.5"
   }
 }
