@@ -5,5 +5,6 @@ export default defineNuxtConfig({
   vueEmail: {
     baseUrl: 'https://vue-email-demo.vercel.app/',
     autoImport: true
-  }
+  },
+  nitro: { preset: "cloudflare-pages" },
 })
