@@ -5,6 +5,6 @@ export default defineNuxtConfig({
   modules: ['@vue-email/nuxt'],
   vueEmail: {
     baseUrl: 'https://vue-email-demo.vercel.app/',
-    autoImport: true,
+    autoImport: false,
   }
 })
