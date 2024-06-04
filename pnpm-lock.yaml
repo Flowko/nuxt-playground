@@ -17,9 +17,9 @@ importers:
       vue:
         specifier: ^3.4.27
         version: 3.4.27(typescript@5.3.3)
-      vue-email:
-        specifier: npm:vue-email-edge@0.8.11-28625094.39cd018
-        version: vue-email-edge@0.8.11-28625094.39cd018(typescript@5.3.3)
+      vue-email-edge:
+        specifier: 0.8.11-28625094.39cd018
+        version: 0.8.11-28625094.39cd018(typescript@5.3.3)
       vue-router:
         specifier: ^4.3.2
         version: 4.3.2(vue@3.4.27(typescript@5.3.3))

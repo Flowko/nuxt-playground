@@ -1,4 +1,4 @@
-import { useRender } from 'vue-email'
+import { useRender } from 'vue-email-edge'
 import Koala from '../../components/Koala.vue'
 
 

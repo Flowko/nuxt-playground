@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import { EHtml, EHead, EBody, EPreview, EContainer, EImg, EText, ESection, EButton, EHr } from 'vue-email'
+import { EHtml, EHead, EBody, EPreview, EContainer, EImg, EText, ESection, EButton, EHr } from 'vue-email-edge'
 
 defineProps({
   userFirstname: {
