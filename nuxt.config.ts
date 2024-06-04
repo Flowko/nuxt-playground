@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     baseUrl: 'https://vue-email-demo.vercel.app/',
     autoImport: true,
   },
+  experimental: {
+    componentIslands: true
+  }
   // nitro: {
   //   plugins: ['vue']
   // }
