@@ -15,7 +15,7 @@
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2",
-    "@vue-email/nuxt-edge": "0.8.19-28625182.50cb071",
+    "@vue-email/nuxt-edge": "0.8.19-28627009.32cffe7",
     "@nuxtjs/i18n": "^8.3.1"
   }
 }

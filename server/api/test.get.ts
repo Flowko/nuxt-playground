@@ -1,5 +1,5 @@
 import { useRender } from 'vue-email-edge'
-import Email from '../../components/Email.vue'
+import Email from '../../components/vercel-invite-user.vue'
 
 export default defineEventHandler(async (event) => {
 
