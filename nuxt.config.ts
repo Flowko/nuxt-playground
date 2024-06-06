@@ -17,5 +17,5 @@ export default defineNuxtConfig({
       localeDetector: './localeDetector.ts'
     }
   },
-  nitro: { preset: "vercel-edge" },
+  // nitro: { preset: "vercel-edge" },
 })
