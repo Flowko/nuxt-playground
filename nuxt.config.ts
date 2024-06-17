@@ -21,7 +21,7 @@ export default defineNuxtConfig({
   nitro: {
     rollupConfig: {
       plugins: [vue()]
-    }
-  }
-  // nitro: { preset: "vercel-edge" },
+    },
+    preset: "vercel-edge"
+  },
 })
