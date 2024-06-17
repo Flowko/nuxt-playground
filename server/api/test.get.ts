@@ -1,18 +1,19 @@
-import { useRender } from 'vue-email-edge'
-import Email from '../../components/vercel-invite-user.vue'
+import { render } from '@vue-email/render'
+import Email from '../../components/TailwindTest.vue'
 
 export default defineEventHandler(async (event) => {
 
   const t = await useTranslation(event)
 
-  const email = await useRender(Email, {
-    loginDate: new Date('September 7, 2022, 10:58 am'),
-    loginDevice: 'Chrome on Mac OS X',
-    loginLocation: 'Upland, California, United States',
-    loginIp: '47.149.53.167',
-    userFirstName: 'John',
+  const emailHtml = await render(Email, {
+    invitedByEmail: 'anpch@example.com',
+    inviteLink: 'https://vercel.com/teams/invite/foo',
+    inviteFromIp: '172.0.0.1',
+    inviteFromLocation: 'San Francisco, CA',
+    invitedByUsername: 'bukinoshita',
+    teamName: 'My project',
+    username: 'John Doe',
   })
 
-  return email.html
-
+  return emailHtml
 })

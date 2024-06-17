@@ -15,7 +15,9 @@
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2",
-    "@vue-email/nuxt-edge": "0.8.19-28628306.78c82c6",
-    "@nuxtjs/i18n": "^8.3.1"
+    "@vue-email/render": "0.0.3",
+    "@vue-email/components": "0.0.9",
+    "@nuxtjs/i18n": "^8.3.1",
+    "@vitejs/plugin-vue": "^5.0.5"
   }
 }

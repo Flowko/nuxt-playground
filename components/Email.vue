@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { EBody, EColumn, EContainer, EHead, EHeading, EHtml, EImg, EPreview, ERow, ESection, EText } from 'vue-email-edge'
+import {Body,Column,Container,Head,Heading,Html,Img,Preview,Row,Section,Text } from '@vue-email/components'
 import { getRandomInt } from '../utils/index'
 
 const props = defineProps({
@@ -75,32 +75,32 @@ const containerImageFooter = {
 </script>
 
 <template>
-  <EHtml>
-    <EHead />
-    <EPreview>Yelp recent login</EPreview>
-    <EBody :style="main">
-      <EContainer>
-        <ESection :style="logo">
-          <EImg src="https://vue-email-demo.vercel.app/static/yelp-logo.png" />
-        </ESection>
+  <Html>
+    <Head />
+    <Preview>Yelp recent login</Preview>
+    <Body :style="main">
+      <Container>
+        <Section :style="logo">
+          <Img src="https://vue-email-demo.vercel.app/static/yelp-logo.png" />
+        </Section>
 
-        <ESection :style="content">
-          <EImg
+        <Section :style="content">
+          <Img
             width="620"
             src="https://vue-email-demo.vercel.app/static/yelp-header.png"
           />
 
-          <ERow
+          <Row
             :style="{
               ...boxInfos,
               paddingBottom: 0,
             }"
           >
-            <EColumn>
-              <EHeading style="font-size: 32; font-weight: bold; text-align: center">
+            <Column>
+              <Heading style="font-size: 32; font-weight: bold; text-align: center">
                 Hi {{ userFirstName }},
-              </EHeading>
-              <EHeading
+              </Heading>
+              <Heading
                 as="h2"
                 :style="{
                   fontSize: '26px',
@@ -109,21 +109,21 @@ const containerImageFooter = {
                 }"
               >
                 We noticed a recent login to your Yelp account.
-              </EHeading>
+              </Heading>
 
-              <EText :style="paragraph">
+              <Text :style="paragraph">
                 <b>Time: </b>
                 {{ formattedDate }}
-              </EText>
-              <EText :style="{ ...paragraph, marginTop: '-5px' }">
+              </Text>
+              <Text :style="{ ...paragraph, marginTop: '-5px' }">
                 <b>Device: </b>
                 {{ loginDevice }}
-              </EText>
-              <EText :style="{ ...paragraph, marginTop: '-5px' }">
+              </Text>
+              <Text :style="{ ...paragraph, marginTop: '-5px' }">
                 <b>Location: </b>
                 {{ loginLocation }}
-              </EText>
-              <EText
+              </Text>
+              <Text
                 :style="{
                   color: 'rgb(0,0,0, 0.5)',
                   fontSize: 14,
@@ -131,36 +131,36 @@ const containerImageFooter = {
                 }"
               >
                 *Approximate geographic location based on IP address: {loginIp}
-              </EText>
+              </Text>
 
-              <EText :style="paragraph">
+              <Text :style="paragraph">
                 If this was you, there's nothing else you need to do.
-              </EText>
-              <EText :style="{ ...paragraph, marginTop: '-5px' }">
+              </Text>
+              <Text :style="{ ...paragraph, marginTop: '-5px' }">
                 If this wasn't you or if you have additional questions, please see our support page.
-              </EText>
-            </EColumn>
-          </ERow>
-          <ERow :style="{ ...boxInfos, paddingTop: '0' }">
-            <EColumn
+              </Text>
+            </Column>
+          </Row>
+          <Row :style="{ ...boxInfos, paddingTop: '0' }">
+            <Column
               :style="containerButton"
               col-span="{2}"
             >
-              <EText :style="button">
+              <Text :style="button">
                 Learn More {{ getRandomInt(1, 10) }}
-              </EText>
-            </EColumn>
-          </ERow>
-        </ESection>
+              </Text>
+            </Column>
+          </Row>
+        </Section>
 
-        <ESection :style="containerImageFooter">
-          <EImg
+        <Section :style="containerImageFooter">
+          <Img
             width="620"
             src="https://vue-email-demo.vercel.app/static/yelp-footer.png"
           />
-        </ESection>
+        </Section>
 
-        <EText
+        <Text
           :style="{
             textAlign: 'center',
             fontSize: 12,
@@ -168,8 +168,8 @@ const containerImageFooter = {
           }"
         >
           © 2022 | Yelp Inc., 350 Mission Street, San Francisco, CA 94105, U.S.A. | www.yelp.com
-        </EText>
-      </EContainer>
-    </EBody>
-  </EHtml>
+        </Text>
+      </Container>
+    </Body>
+  </Html>
 </template>
