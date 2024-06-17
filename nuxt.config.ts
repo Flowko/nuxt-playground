@@ -22,6 +22,5 @@ export default defineNuxtConfig({
     rollupConfig: {
       plugins: [vue()]
     },
-    preset: "vercel-edge"
   },
 })
