@@ -1,6 +1,7 @@
 <template>
-  <div>{{ $t('app.hello') }} - {{ $t('app.name') }}</div>
-  <Email 
+  <div>
+    <ClientOnly>
+      <Email 
     invitedByEmail="anpch@example.com"
     inviteLink="https://vercel.com/teams/invite/foo"
     invitedByUsername="bukinoshita"
@@ -9,4 +10,6 @@
     inviteFromLocation="San Francisco, CA"
     username="John Doe"
   />
+      </ClientOnly>
+  </div>  
 </template>

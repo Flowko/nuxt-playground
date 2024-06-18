@@ -1,5 +1,5 @@
 import { render } from '@vue-email/render'
-import Email from '../../components/TailwindTest.vue'
+import Email from '../../components/Markdown.vue'
 
 export default defineEventHandler(async (event) => {
 
