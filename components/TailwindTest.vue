@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { defineProps, withDefaults } from 'vue'
-import { Body, Button, Column, Container, Head, Heading, Hr, Html, Img, Link, Preview, Row, Section, Tailwind, Text } from '@vue-email/components'
+import { Body, Button, Column, Container, Head, Heading, Hr, Html, Img, Link, Preview, Row, Section, Text } from '@vue-email/components'
+import { Tailwind } from '@vue-email/tailwind'
+
 
 interface Props {
   invitedByUsername?: string
@@ -27,6 +29,14 @@ withDefaults(defineProps<Props>(), {
     <Html>
       <Head />
       <Body class="bg-white my-auto mx-auto font-sans">
+        
+        <p>
+  a<br />
+  b<br />
+  c<br />
+  d
+</p>
+
         <Container class="border border-solid border-[#eaeaea] p-[20px] md:p-7 rounded my-[40px] mx-auto max-w-[465px]">
           <Section class="mt-[32px]">
             <Img src="https://vue-email-demo.vercel.app/static/vercel-logo.png" width="40" height="37" alt="Vercel" class="my-0 mx-auto" />
